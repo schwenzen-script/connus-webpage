@@ -83,7 +83,7 @@ export default {
         more_info: "Want to learn more about this?",
         info_source:"* information from Stellar HypeAuditor",
         
-        tile_one_title: "Get payed to use our app",
+        tile_one_title: "Get paid to use our app",
         tile_one_text: "Fair is fair: we collect interest data from you, that we resell to companies to give them more insights. For every time we sell your data anonymously, we pay you a part of the earnings. Major tech companies could learn something from this approach.",
         tile_two_title: "Register and collaborate with us",
         tile_two_text: "Connus is always looking for content creators from all type all around the world. Connect with us on the platform and you’ll have your first payed collaboration straight away. See you on the platform!",
