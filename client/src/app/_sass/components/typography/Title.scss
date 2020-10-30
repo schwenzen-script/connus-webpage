@@ -21,6 +21,20 @@
         animation: fadein 2s;
 }
 
+.mini-title {
+   @include font-small-title;
+   font-size: 24px;
+   font-weight: normal;
+   text-align: center;
+
+   transition: ease-in-out 0.5s;
+   -webkit-animation: fadein 2s;
+   -moz-animation: fadein 2s;
+    -ms-animation: fadein 2s; 
+     -o-animation: fadein 2s; 
+        animation: fadein 2s;
+}
+
 .title-blue {
    color: $blue;
 }

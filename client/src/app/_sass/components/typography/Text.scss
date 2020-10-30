@@ -19,10 +19,20 @@ p {
     @include font-lighttext;
 }
 
+.light-text-blue {
+    @include font-lighttext;
+    color: white;
+    text-align: center;
+}
+
 .medium-weight{
     font-weight: 400;
 }
 
 .white-font {
     color: $white;
+}
+
+.text-big {
+    font-size: 20px;
 }

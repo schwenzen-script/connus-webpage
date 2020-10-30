@@ -23,33 +23,41 @@ const Footer = ({target}) => {
         <div className="footer">
             <Container>
                 <CenterRow>
-                    <Col sizes="col-12 col-md-6">
-                        <NewsletterForm 
+                    <Col className="footer col-12" sizes="col-12 col-md-6">
+                        {/* <NewsletterForm 
                             target={preferedPage}
                             title={Parser(text["newsletter_title"])}
                             text={Parser(text["newsletter_info"])}
                             button={Parser(text["newsletter_button"])}
                             subscribed={Parser(text["newsletter_subscribed"])}
-                        />
+                        /> */}
+                        <h3 className="mini-title title-white">Alexandre Goossens</h3>
+                        <p className="light-text-blue">+32 4 76 01 51 56</p>
+                    </Col>
+                    <Col className="footer col-12" sizes="col-12 col-md-6">
+                        <h3 className="mini-title title-white">Tibo Verdonck</h3>
+                        <p className="light-text-blue">+32 4 73 82 56 87</p>
                     </Col>
                 </CenterRow>
-                <Row>
-                    <Col sizes="col-12 col-md-6">
+                <CenterRow>
+                    <a className="light-button" href="mailto:info@connus.app">info@connus.app</a>
+                </CenterRow>
+                <CenterRow>
+                    {/* <Col sizes="col-12 col-md-6"> */}
                         {/* <LanguageButtons /> */}
-                    </Col>
-
-                    <Col sizes="col-12 col-md-4 d-md-flex justify-content-md-end">
+                    {/* </Col> */}
+                    <Col sizes="col-12 col-md-6 d-md-flex justify-content-md-end">
                         <LightButton text="Privacy Policy" pageRef="/privacy-policy"/>
                     </Col>
 
-                    <Col sizes="col-12 col-md-2 d-md-flex align-items-center">
+                    <Col sizes="col-12 col-md-6 d-md-flex align-items-center">
                         <SocialButtons>
                             <SocialButton img={Linkedin} pageRef={"https://www.linkedin.com/company/connus-be/?originalSubdomain=be"} />
                             <SocialButton img={Facebook} pageRef={"https://www.facebook.com/pages/category/Computer-Company/Connus-104463651083787/"} />
                             <SocialButton img={Instagram} pageRef={"https://www.instagram.com/connus_be/"}/>
                         </SocialButtons>
                     </Col>
-                </Row>
+                </CenterRow>
             </Container>
         </div>
     )
